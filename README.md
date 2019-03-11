@@ -13,7 +13,7 @@ Some highlights of what's included here:
 - [Laravel backup](https://docs.spatie.be/laravel-backup/v6/installation-and-setup)
 - [Bugsnag](https://docs.bugsnag.com/platforms/php/laravel/) integration
 - [PHP-CS fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
-
+- A zero-downtime deploy script with Envoy
 
 ## Laravel Schedule
 
