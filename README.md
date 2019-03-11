@@ -11,3 +11,15 @@ Some highlights of what's included here:
   - [laravel-tail](https://github.com/spatie/laravel-tail)
   
 - [Laravel backup](https://docs.spatie.be/laravel-backup/v6/installation-and-setup)
+- [Bugsnag](https://docs.bugsnag.com/platforms/php/laravel/) integration
+
+
+## Laravel Schedule
+
+```php
+// app/Console/Kernel.php
+
+// added for backup
+$schedule->command('backup:clean')->daily()->at('02:50');
+$schedule->command('backup:run')->daily()->at('03:00');
+```

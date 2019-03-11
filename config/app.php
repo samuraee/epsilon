@@ -174,7 +174,9 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        //end of officials
 
+        Bugsnag\BugsnagLaravel\BugsnagServiceProvider::class,
     ],
 
     /*
@@ -228,6 +230,7 @@ return [
         // end of officials
 
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'Bugsnag' => Bugsnag\BugsnagLaravel\Facades\Bugsnag::class,
     ],
 
 ];
