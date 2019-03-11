@@ -61,6 +61,12 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
+        "deploy": [
+            "envoy run deploy"
+        ],
+        "deploy-code": [
+            "envoy run deploy-code"
+        ],
         "format": [
             "vendor/bin/php-cs-fixer fix"
         ],
