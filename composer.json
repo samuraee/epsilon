@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "tartan/epsilon",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Laravel Starter Kit",
     "keywords": [
         "framework",
         "laravel"
@@ -11,6 +11,7 @@
         "php": "^7.1.3",
         "bugsnag/bugsnag-laravel": "^2.0",
         "fideloper/proxy": "^4.0",
+        "friendsofphp/php-cs-fixer": "^2.14",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
         "spatie/laravel-backup": "^6.1",
@@ -29,7 +30,10 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "7.2"
+        }
     },
     "extra": {
         "laravel": {
@@ -53,6 +57,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
+        "format": [
+            "vendor/bin/php-cs-fixer fix"
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
