@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\DB;
  */
 class InitDb extends Migration
 {
-    protected $requiredExtensions = ['ltree', 'hstore', 'postgis'];
+    protected $requiredExtensions = ['ltree', 'hstore'];
 
     /**
      * Run the migrations.

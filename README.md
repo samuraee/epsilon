@@ -25,3 +25,11 @@ Some highlights of what's included here:
 $schedule->command('backup:clean')->daily()->at('02:50');
 $schedule->command('backup:run')->daily()->at('03:00');
 ```
+
+## DB init migration
+
+Added an init db migration for cases like Postgres extension activation
+
+```
+1981_09_21_000000_init_db.php
+```
