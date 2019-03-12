@@ -16,6 +16,7 @@ Some highlights of what's included here:
 - A zero-downtime deploy script with [Envoy](https://laravel.com/docs/5.8/envoy)
 - [Spatie Media Library](https://docs.spatie.be/laravel-medialibrary)
 - [Spatie Eloquent Sortable](https://github.com/spatie/eloquent-sortable)
+- [Spatie Artisan dd](https://github.com/spatie/laravel-artisan-dd)
 
 ## Laravel Schedule
 

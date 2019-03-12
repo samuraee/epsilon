@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c93b251338795f4087ab87d081813bc2",
+    "content-hash": "e6be0af2500e23d048508a461cd6a7b9",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -2597,6 +2597,57 @@
                 "spatie"
             ],
             "time": "2019-02-15T12:11:38+00:00"
+        },
+        {
+            "name": "spatie/laravel-artisan-dd",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-artisan-dd.git",
+                "reference": "155693f65d4bf4caaf72e6bb13e57546c23ef3a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-artisan-dd/zipball/155693f65d4bf4caaf72e6bb13e57546c23ef3a4",
+                "reference": "155693f65d4bf4caaf72e6bb13e57546c23ef3a4",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.8.0",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.8.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\ArtisanDd\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Run dd from your commandline",
+            "homepage": "https://github.com/spatie/laravel-artisan-dd",
+            "keywords": [
+                "artisan",
+                "debug",
+                "develop",
+                "laravel-artisan-dd",
+                "spatie"
+            ],
+            "time": "2019-02-27T07:37:11+00:00"
         },
         {
             "name": "spatie/laravel-backup",
