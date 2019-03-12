@@ -18,6 +18,7 @@ Some highlights of what's included here:
 - [Spatie eloquent Sortable](https://github.com/spatie/eloquent-sortable)
 - [Spatie artisan dd](https://github.com/spatie/laravel-artisan-dd)
 - [Spatie laravel collection macros](https://github.com/spatie/laravel-collection-macros)
+- [Spatie laravel db snapshots](https://github.com/spatie/laravel-db-snapshots)
 
 ## Laravel Schedule
 
