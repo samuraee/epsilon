@@ -14,9 +14,10 @@ Some highlights of what's included here:
 - [Bugsnag](https://docs.bugsnag.com/platforms/php/laravel/) integration
 - [PHP-CS fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 - A zero-downtime deploy script with [Envoy](https://laravel.com/docs/5.8/envoy)
-- [Spatie Media Library](https://docs.spatie.be/laravel-medialibrary)
-- [Spatie Eloquent Sortable](https://github.com/spatie/eloquent-sortable)
-- [Spatie Artisan dd](https://github.com/spatie/laravel-artisan-dd)
+- [Spatie media library](https://docs.spatie.be/laravel-medialibrary)
+- [Spatie eloquent Sortable](https://github.com/spatie/eloquent-sortable)
+- [Spatie artisan dd](https://github.com/spatie/laravel-artisan-dd)
+- [Spatie laravel collection macros](https://github.com/spatie/laravel-collection-macros)
 
 ## Laravel Schedule
 
