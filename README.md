@@ -19,6 +19,8 @@ Some highlights of what's included here:
 - [Spatie artisan dd](https://github.com/spatie/laravel-artisan-dd)
 - [Spatie laravel collection macros](https://github.com/spatie/laravel-collection-macros)
 - [Spatie laravel db snapshots](https://github.com/spatie/laravel-db-snapshots)
+- [Spatie laravel fractal](https://github.com/spatie/laravel-fractal)
+- [Spatie laravel referer](https://github.com/spatie/laravel-referer)
 
 ## Laravel Schedule
 
