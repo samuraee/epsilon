@@ -22,6 +22,8 @@ Some highlights of what's included here:
 - [Spatie laravel db snapshots](https://github.com/spatie/laravel-db-snapshots)
 - [Spatie laravel fractal](https://github.com/spatie/laravel-fractal)
 - [Spatie laravel referer](https://github.com/spatie/laravel-referer)
+- [Spatie regex](https://github.com/spatie/regex)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager)
 
 ## Laravel Schedule
 
